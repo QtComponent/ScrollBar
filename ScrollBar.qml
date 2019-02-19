@@ -14,8 +14,8 @@ Rectangle {
     |Qt.Vertical  |Vertical(default)|
 */
 
-    width: orientation == Qt.Vertical ? 10 : target.width
-    height: orientation == Qt.Vertical ? target.height : 10
+    width: orientation == Qt.Vertical ? 15 : target.width
+    height: orientation == Qt.Vertical ? target.height : 15
     color: "white"
     opacity: 0.3
     radius: 5

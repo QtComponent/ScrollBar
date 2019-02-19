@@ -1,7 +1,8 @@
 import QtQuick 2.0
+import "../"
 
 Rectangle {
-    width: 200; height: 200
+    anchors.fill: parent
 
     Flickable {
         id: view
@@ -11,7 +12,7 @@ Rectangle {
 
         Image {
             id: picture
-            source: "/home/strong/Pictures/Screenshot from 2019-02-15 17-01-47.png"
+            source: "Test.png"
             asynchronous: true
         }
     }
