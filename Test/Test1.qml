@@ -17,7 +17,6 @@ Rectangle {
         }
     }
 
-
     ScrollBar {
         target: view
     }
