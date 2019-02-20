@@ -2,7 +2,7 @@ import QtQuick 2.0
 import "../"
 
 ListView {
-//    width: 300; height: 300
+    anchors.fill: parent
 
     model: 10
     delegate: Rectangle {
